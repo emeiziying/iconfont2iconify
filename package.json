@@ -1,0 +1,31 @@
+{
+  "name": "iconfont2iconify",
+  "version": "1.0.0",
+  "description": "convert iconfont json to iconify json",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeiziying/iconfont2iconify.git"
+  },
+  "author": "emeiziying",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emeiziying/iconfont2iconify/issues"
+  },
+  "homepage": "https://github.com/emeiziying/iconfont2iconify#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@iconify/tools": "^2.2.6"
+  }
+}
